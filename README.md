@@ -1,29 +1,54 @@
-# HTML-Practice
-practice exercises
-<html><head>Recipe Book</head> 
- <body> 
-  <h1>My Recipe</h1> 
-  <h1> Beans and potatoes </h1> 
-  <h2>Ingredients</h2> 
-  <ul> 
-   <li> A measure of picked beans</li> 
-   <li> palm oil</li>  
-   <li> potatoes</li> 
-   <li>salt and pepper (to taste) </li> 
-   <li>onion</li> 
-   <li>seasoning cubes</li> 
-  </ul> 
-  <h2>Cooking procedure</h2> 
-  <ol> 
-   <li>add beans to boiling water</li> 
-     <li> allow beans to boil for about 15 minutes and filter water out </li>
-       <li>return beans to pot and allow to cook until its soft</li>
-         <li> peel, wash and cut potatoes in tiny bits</li>
-         <li>  add potatoes to pot of boiling beans</li>
-           <li>add salt, pepper and a seasoning cube to taste</li>
-            <li> add little quantity of palm oil</li>
-              <li> allow to cook for about 5-10 minutes over low heat, stir and serve</li>
-  </ol> 
-    
+<html>
+    <head>
+        <title>TIm's Recipe</title>
+        <meta charset="UTF-8">
+    </head>
+    <body style="background-color:grey;"> 
+  
+        <h1 style ="color:blue;">My Recipe</h1> <!---header 1-->
+        <article>
+            <h1 style ="color:blue;"> Beans and potatoes </h1> <!---header 1-->
+                <p>Beans and potatoes is a very nutritous meal. It is rich in <i>Protein</i> and <i>fibre</i>. Not only is it a very nutricious delicacy, it is also <i>delicious</i>.</p>
+            <section>
+                <h2 style ="color:rgb(42, 87, 224);">Ingredients</h2> <!---header 2-->
+                <ul> <!--unordered list-->
+                    <li> A measure of picked beans</li> 
+                    <li> palm oil</li>  
+                    <li> potatoes</li> 
+                    <li>salt and pepper (to taste)</li> 
+                    <li>onion</li> 
+                    <li>seasoning cubes</li> 
+                </ul> <!---end of unordered list-->
+            </section>
+            <section>
+                <h2 style ="color:rgb(42, 87, 224);">How to prepare it</h2> <!---header 2-->
+                <img src="https://connectnigeria.com/articles/wp-content/uploads/2017/06/image-220.jpeg" alt="beans and potato">
+                <ol> <!--ordered list-->
+                    <li>add beans to boiling water🤯</li> 
+                    <li> allow beans to boil for about 15 minutes and filter water out </li>
+                    <li>return beans to pot and allow to cook until its soft 😉</li>
+                    <li>wash and slice onions into pot of boiling beans <img src="data:image/jpeg;base64,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" alt="chopped potatoes"></li>
+                    <li> peel, wash and cut potatoes in tiny bits &#x1F914</li>
+                    <li>  add potatoes to pot of boiling beans</li>
+                    <li>add salt, pepper and a seasoning cube to taste &#x1F60B</li>
+                    <li> add little quantity of palm oil</li>
+                    <li> allow to cook for about 5-10 minutes over low heat, stir and serve 😍</li>
+                </ol>
+            </section>
+            <p>The dish looks like a very thick paste, it isn't usually smooth but it taste really nice. It may largely taste like cooked potatoes, depending of the quantity of potatoes used during cooking.</p>
+            <ul>
+                <h2 style ="color:rgb(42, 87, 224);">Recipe from other websites</h2>
+                <li><a href "https://cookpad.com/ng/recipes/2374669-beans-and-sweet-potato-porridge">CookPad</a></li>
+                <li><a href "https://www.allnigerianrecipes.com/beans/beans-porridge/">All Nigerian Recipes</a></li>
+                <li><a href "https://www.wivestownhallconnection.com/2018/12/recipe-for-beans-and-sweet-potato.html">Nigerian Women blog</a></li>
+                <li><a href "https://allnigerianfoods.com/porridge-beans-recipe">Foodblog</a></li>
+                <li><a href "https://guardian.ng/life/food/how-to-make-beans-porridge/">Guardian Life</a></li>
+            </ul>
+
+            <a href "mailto:timtyger796@timrecipe.com">Mail us</a>
+
+        </article>
+        
  
-</body></html>
+    </body>
+</html>
